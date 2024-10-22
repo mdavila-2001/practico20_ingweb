@@ -101,7 +101,7 @@ const personas = [
     actualizarLista();
   }
 
-  function validarEmail(email) {
+  function esEmailValido(email) {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return re.test(email);
   }
