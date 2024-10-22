@@ -110,7 +110,7 @@ const personas = [
   function eliminar(i) {
     //Lanzamos un cuadro de confirmacion para confirmar la eliminación
     //La variable respuesta guardará si el usuario seleccionó SI o NO (SI=true, NO=false)
-    const respuesta = confirm("¿Esta seguro que desea eliminar el nombre?");
+    const respuesta = confirm("¿Está seguro que desea eliminar el nombre?");
     if (respuesta === false) {
       //Si la respuesta es no, no hay nada que hacer.
       return;
